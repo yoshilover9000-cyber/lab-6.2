@@ -1,16 +1,21 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
 h1 {
   font-size: 16px;
   color: #444444;
 }
 .container {
   font-size: 13px;
-  align: center;
+  text align: center;
   margin: 5px;
 }
 .offer {
     width: 400px;
     border: 1px solid #cccccc;
     margin: 4px;
+    display: inline-block;
     text-align: center;
 }
 .offer-title {
@@ -24,29 +29,31 @@ h1 {
   background-color: #fafafa;
   padding: 20px;
 }
-.table {
+table {
   width: 100%;
   background-color: #ffffff;
-  border-bottom: 1px solid #cccccc;
-  border-spacing: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
-.table th{
-  background-color: #777777;
+th {
+  color: #777777;
   font-size: 12px;
   font-weight: bold;
   padding: 10px;
-  margin: 0px;
+  margin: 0;
   text-align: left;
+  border-bottom: 1px solid #f1f1f1;
 }
-.table td {
-  background-color: #444444;
+td {
+  color: #444444;
   font-weight: lighter;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
-  padding-bottom: 20px;
-  margin 0px;
+  padding-top: 20px;
+  margin 0;
   text-align: left;
+  border-bottom: 1px solid #f1f1f1;
 }
 .final-value {
   color: #2222ff;
